@@ -1,0 +1,254 @@
+body {
+    margin: 0; 
+    padding: 0;
+    font-family:"Montserrat", Arial, serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: no-wrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+.main-navigation{
+    width: 1350px;
+    margin: 0 auto;
+    padding-top: 20px;
+    
+    
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    background-image: url("../IMG/fon\ 1.jpg");
+    background-position: top center;
+    /*opacity: 0.8;*/
+    
+}
+
+
+
+
+
+.header-wrapper {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center ;
+    
+    
+}
+
+.header-wrapper h1,
+.header-wrapper p {
+    margin: 0;
+    padding:0;
+}
+
+.header-wrapper b,
+.header-wrapper span {
+    display: block;
+
+}
+
+.header-wrapper b {
+    font-family: "Roboto Slab", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: #45315d;
+    line-height: 90px;
+    margin-bottom: 50px;
+    
+    
+    
+}
+
+.header-wrapper span {
+    font-size: 30px;
+    line-height: 40px;
+
+}
+
+.header-wrapper p {
+    font-size: 40px;
+    line-height: 50px;
+    position: relative;
+}
+
+.header-wrapper p::before {
+    content: url("../IMG/fleur-de-lis.svg");
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -50px;
+    left: 320px;
+}
+
+
+.site-navigation {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 180px;
+     
+}
+
+.site-navigation a {
+    color: #000000;
+}
+
+.logo-info {
+    background-color: rgba(223,211,195,0.4);
+}
+
+
+
+
+.main-promo {
+    width: 100%;
+    background-color: rgba(223,211,195,0.6); 
+    
+    padding-bottom: 20px;
+    
+    
+   
+    
+    
+    
+}
+
+.main-promo .container {
+    padding: 0 30px;
+    /*background-color: #f0ece2;*/
+}
+
+.main-promo h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+ 
+    
+}
+
+.promo-features {
+    width: 800px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 25px;
+    line-height: 35px;
+   
+    
+}
+
+.promo-features li {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.promo-features li::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #45315d;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 13px;
+    left: 0; 
+}
+
+.promo-features li:last-child {
+    margin-bottom: 0;
+}
+
+.main-services {
+    padding: 50px 0;
+}
+
+.main-services h2 {
+    margin: 0;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #596e79;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.services-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-item {
+    width: 380px;
+    height: 450px;
+    
+    margin-bottom: 20px;
+    
+}
+
+.services-item h3 {
+    text-transform: uppercase;
+}
+
+.services-item a {
+    font-weight: 700;
+    color: #45315d;
+    text-transform: uppercase;
+}
+
+.main-footer {
+    width: 100%;
+    height: 150px;
+    background-color: #45315d;
+    background-image: url("../img/cloth_texture-2.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
