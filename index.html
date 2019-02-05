@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="ru"> <!--<![endif]-->
     <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131238661-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -17,7 +17,6 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Лиза-подбор домашнего персонала</title>
-        <meta name="yandex-verification" content="5ed77ce4ac0f9f90" />
         <meta name="description" content="Лиза - кадровое агентство по подбору домашнего персонала. 
         Работаем с 2002 года и пользуемся заслуженным 
         уважением клиентов.">
@@ -28,49 +27,51 @@
         <!--<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/miama-nueva" type="text/css"/>-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab:300,400,700" rel="stylesheet">
         <link rel="stylesheet" href="CSS/normalize.css">
-        <link rel="stylesheet" href="CSS/style-2.css">
+        <link rel="stylesheet" href="CSS/style-adap.css">
     </head>
     <body>
-        
         <header class="main-header">
-            <nav class="main-navigation">
-                <div class="main-navigation-wrapper">
-                    <div class="container">
-                        <ul class="site-navigation">
-                            <li> <a>Главная</a></li>
-                            <li> <a href="#about">О нас</a></li>
-                            <li> <a href="#services">Услуги</a></li>
-                            <li> <a href="#price">Цены</a></li>
-                            <li> <a href="#contacts">Контакты</a></li>
-                        </ul>
-                    </div>  
+            <nav class="main-navigation main-nav-closed main-nav-nojs">
+                <button class="main-nav__toggle" type="button">
+                    <span class="visually-hidden">Открыть меню</span>
+                </button>
+                <div class="container">
+                    <ul class="site-navigation">
+                        <li class="main-nav-item main-nav-item-active"> <a>Главная</a></li>
+                        <li class="main-nav-item"> <a href="#about">О нас</a></li>
+                        <li class="main-nav-item"> <a href="#services">Услуги</a></li>
+                        <li class="main-nav-item"> <a href="#price">Цены</a></li>
+                        <li class="main-nav-item"> <a href="#contacts">Контакты</a></li>
+                    </ul>
                 </div>
-                <div class="header-contacts">
-                    
-                        <b>Телефоны в Москве:</b>
-                        <ul class="contacts-tel">
-                            <li>+7 (495) 772-45-81</li>
-                            <li>+7 (499) 246-18-56</li>
-                        </ul>
-                      
-                </div>      
-                <div class="logo-info">
+            </nav>      
+            <div class="header-promo">
+                <div class="container">    
+                  <div class="header-contacts">
+                    <b>Телефоны в Москве:</b>
+                    <ul class="contacts-tel">
+                        <li><a href="tel:+74957724581">+7 (495) 772-45-81</a></li>
+                        <li><a href="tel:+74992461856">+7 (499) 246-18-56</a></li>
+                    </ul>
+                  </div>      
+                  <div class="logo-info">
                     <span>Кадровое агентство</span>
-                    <!-- <b>Лиза</b> -->
+                    
                     <img src="IMG/main-logo-1.svg" width="300" height="200" alt="Логотип Лиза">
                     <p>Персонал для вашего дома</p>
-                </div>
-            </nav>    
-            <section class="main-promo section-1">
-                <h1 class="visually-hidden">Кадровое агентство Лиза</h1>
-                <h2 class="promo-slogan">Работаем для вас с 2002 года</h2>
-                <ul class="promo-features list-1">
-                    <li><span>В вашу семью попадут лучшие из лучших</span></li>
-                    <li><span>Штатный психолог</span></li>
-                    <li><span>Бесплатные тестовые дни</span></li>
-                    <li><span>Бесплатная замена персонала</span></li> 
-                </ul>
-            </section>
+                  </div>
+                  <div class="promo-features">
+                    <h1 class="visually-hidden">Кадровое агентство Лиза</h1>
+                    <h2 class="promo-slogan">Работаем для вас с 2009 года</h2>
+                    <ul class="promo-list">
+                        <li><span>В вашу семью попадут лучшие из лучших</span></li>
+                        <li><span>Штатный психолог</span></li>
+                        <li><span>Бесплатные тестовые дни</span></li>
+                        <li><span>Бесплатная замена персонала</span></li> 
+                    </ul>
+                  </div>
+                </div>  
+            </div>    
         </header>        
         <main>
             <section class="main-about" id="about">
@@ -90,79 +91,139 @@
                 </div>
             </section>
             <section class="main-services" id="services">
-                <h2 class="visually-hidde">Домашний персонал</h2>
+                
+                
                 <div class="container">
+                    <h2 class="visually-hidde">Домашний персонал</h2>
+                    <input class="slider__input" type="radio" name="services" id="services-input-1" checked>
+                    <input class="slider__input" type="radio" name="services" id="services-input-2">
+                    <input class="slider__input" type="radio" name="services" id="services-input-3">
+                    <input class="slider__input" type="radio" name="services" id="services-input-4">
+                    <input class="slider__input" type="radio" name="services" id="services-input-5">
+                    <input class="slider__input" type="radio" name="services" id="services-input-6">
                     <ul class="services-list">
-                        <li class="services-item more">
-                            <img src="IMG/gorn-1.jpg" width="320" height="200" alt="Горничная">
+                        <li class="services-item services-item-gorn">
+                            <img src="IMG/gorn-1.jpg" width="300" height="190" alt="Горничная">
                             <h3>Домработница</h3>
                             <p>С настоящим профессионалом вам не нужно разбираться в марках чистящих средств, режимах стиральной машины и правилах ухода за сложными тканями. Сделайте свою жизнь проще!</p>
-                            <!-- <a href="">Подробнее...</a> -->
+                            <a class="services-link more" href="">Оставить заявку</a>
+                            <a class="services-link link-mobile" href="#request">Заявка</a>
                         </li>
-                        <li class="services-item more">
-                            <img src="IMG/nyanya-1.jpg" width="340" height="200" alt="Няня">
+                        <li class="services-item services-item-nyanya">
+                            <img src="IMG/nyanya-1.jpg" width="300" height="190" alt="Няня">
                             <h3>Няня для ребенка</h3>
                             <p>Мы уверены, что с появлением ребенка жизнь должна меняться только в лучшую сторону! С надежной няней наслаждайтесь материнством, не жертвуя сном, свободным временем, свиданиями с мужем или шоппингом с подругой.</p>
-                            <!-- <a class="request" href="">Подробнее...</a> -->
+                            <a class="services-link more" href="">Оставить заявку</a>
+                            <a class="services-link link-mobile" href="#request">Заявка</a>
                         </li>
-                        <li class="services-item more">
-                            <img src="IMG/vodit-1.jpg" width="340" height="200" alt="Водитель">
+                        <li class="services-item services-item-driver">
+                            <img src="IMG/vodit-1.jpg" width="300" height="190" alt="Водитель">
                             <h3>Семейный водитель</h3>
                             <p>Семейный водитель сможет оказаться в нужном месте и в назначенное время, совершив по пути все нужные покупки. Больше не нужно доверять своих детей незнакомым таксистам, или переживать, если на работе случился незапланированный корпоратив.</p>
-                            <!---<a>Подробнее...</a>-->
+                            <a class="services-link more" href="">Оставить заявку</a>
+                            <a class="services-link link-mobile" href="#request">Заявка</a>
                         </li>
-                        <li class="services-item more">
-                            <img src="IMG/povar-1.jpg" width="340" height="200" alt="Повар">
+                        <li class="services-item services-item-cook">
+                            <img src="IMG/povar-1.jpg" width="300" height="190" alt="Повар">
                             <h3>Повар для семьи</h3>
                             <p>Доставка еды очень удобна, но мало кто задумывается, что намного выгоднее иметь семейного повара. Он учтет вашу диету и запомнит вкусовые предпочтения всех членов семьи, сумеет вложиться в бюджет и радовать вас ежедневными кулинарными
-
-                                шедеврами.</p>
-                            
+                            шедеврами.</p>
+                            <a class="services-link more" href="">Оставить заявку</a>
+                            <a class="services-link link-mobile" href="#request">Заявка</a>
                         </li>
-                        <li class="services-item more">
-                            <img src="IMG/sidelka-1.jpg" width="340" height="200" alt="Сиделка">
+                        <li class="services-item services-item-siter">
+                            <img src="IMG/sidelka-1.jpg" width="300" height="190" alt="Сиделка">
                             <h3>Сиделка</h3>
                             <p>Лучший способ отблагодарить родителей – обеспечить им достойную старость. Добрый и отзывчивый человек облегчит уход за пожилым или больным человеком, окажет квалифицированную медицинскую помощь и развлечет чтением любимых книг.</p>
-                            <!--<a>Подробнее...</a>-->
+                            <a class="services-link more" href="">Оставить заявку</a>
+                            <a class="services-link link-mobile" href="#request">Заявка</a>
                         </li>
-                        <li class="services-item more">
-                            <img src="IMG/sadovnik-1.jpg" width="340" height="200" alt="Садовник">
+                        <li class="services-item services-item-garden">
+                            <img src="IMG/sadovnik-1.jpg" width="300" height="190" alt="Садовник">
                             <h3>Садовник</h3>
                             <p>Роскошная приусадебная зона – результат не только тяжелого физического труда, но и художественного вкуса. Ваши любимые розы и лилии почувствуют опытную руку и будут радовать вас здоровым внешним видом весь сезон.</p>
-                            <!--<a>Подробнее...</a>-->
+                            <a class="services-link more" href="">Оставить заявку</a>
+                            <a class="services-link link-mobile" href="#request">Заявка</a>
                         </li>
                         <li class="services-item more">
-                                <img src="IMG/guvernant-1.jpg" width="340" height="200" alt="Гувернантка">
+                                <img src="IMG/guvernant-1.jpg" width="300" height="190" alt="Гувернантка">
                                 <h3>Гувернантка</h3>
                                 <p>Во все времена воспитанием детей в семьях успешно занимались приглашенные педагоги. Будьте родителями, а не домашними учителями. Оставьте для Вас с ребенком самое приятное, а заботу о детском гардеробе, режиме дня, уроках и секциях предоставьте опытной гувернантке.</p>
-                                <!--<a>Подробнее...</a>-->
+                                <a class="services-link more" href="">Оставить заявку</a>
+                                <a class="services-link link-mobile" href="#request">Заявка</a>
                             </li>
                             <li class="services-item more">
-                                <img src="IMG/garder-1.jpg" width="340" height="200" alt="Садовник">
+                                <img src="IMG/garder-1.jpg" width="300" height="190" alt="Садовник">
                                 <h3>Специалист по гардеробу</h3>
                                 <p>Кто из нас не любит порадовать себя новой брендовой вещью. Но приобрести ее – полдела, уход за дорогой одеждой требует повышенной щепетильности. Специалист по VIP-гардеробу знает, как приручить красивые, но капризные ткани, и продлить жизнь вещей на долгий срок.</p>
-                                <!--<a>Подробнее...</a>-->
+                                <a class="services-link more" href="">Оставить заявку</a>
+                                <a class="services-link link-mobile" href="#request">Заявка</a>
                             </li>
                             <li class="services-item more">
-                                <img src="IMG/helper-1.jpg" width="340" height="200" alt="Помощник">
+                                <img src="IMG/helper-1.jpg" width="300" height="190" alt="Помощник">
                                 <h3>Помощник по хозяйству</h3>
                                 <p>Загородный дом – мечта многих, но и уход за ним требует колоссальных сил. Поручите все тяготы ведения домашнего хозяйства трудолюбивой супружеской паре, которая сможет служить вашей семье годами.</p>
-                                <!---<a>Подробнее...</a>-->
+                                <a class="services-link more" href="">Оставить заявку</a>
+                                <a class="services-link link-mobile" href="#request">Заявка</a>
                             </li>
                         
                     </ul>
+                    <p class="services__toggles slider__toggles">
+                        <label class="slider__toggle" for="services-input-1"></label>
+                        <label class="slider__toggle" for="services-input-2"></label>
+                        <label class="slider__toggle" for="services-input-3"></label>
+                        <label class="slider__toggle" for="services-input-4"></label>
+                        <label class="slider__toggle" for="services-input-5"></label>
+                        <label class="slider__toggle" for="services-input-6"></label>
+                    </p>
                 </div>    
             </section>
-            <section class="price section-1" id="price">
-                <h2>Стоимость услуг</h2>
-                <ul class="price-list list-1">
-                    <li><span>Договор на 1 год - 100% от оклада (неограниченное число замен)</span></li>
-                    <li><span>Договор на 6 мес. - 50% от оклада (3 бесплатные замены)</span></li>
-                    <li><span> 3 бесплатных пробных дня</span></li>
-                    <!-- <li><span>3 бесплатные замены</span></li> -->
-                    <li><span>Гарантия 6 месяцев</span></li>
-                </ul>
-
+            <section class="price" id="price">
+                <div class="container">
+                   <h2>Стоимость услуг</h2>
+                   <ul class="price-list">
+                       <li><span>Договор на 1 год - 100% от оклада (неограниченное число замен)</span></li>
+                       <li><span>Договор на 6 мес. - 50% от оклада (3 бесплатные замены)</span></li>
+                       <li><span> 3 бесплатных пробных дня</span></li>
+                       
+                       <li><span>Гарантия 6 месяцев</span></li>
+                   </ul>
+                </div>
+            </section>
+            <section class="request" id="request">
+                <div class="container">
+                    <form class="request-form" action="https://formspree.io/nowwhat@mail.ru" id="myform" method="POST">
+                        <h2>Оставить заявку</h2>
+                        <div class="request-form-block">
+                            <p>
+                                <label for="request-name">Ваше имя:</label>
+                                <input type="text" class="request-form-input request-form-name"
+                                 name="name" id="request-name" placeholder="Имя" required>
+                          
+                            </p>
+                            <!-- <p> 
+                                <label for="request-mail">Ваш email:</label>
+                                <input type="email" class="request-form-input request-form-mail"
+                                 name="mail" id="request-mail" placeholder="Email" required>
+                            </p>-->
+                            <p>
+                                <label for="request-tel">Ваш телефон:</label>
+                                <input type="tel" class="request-form-input request-form-tel"
+                                 name="tel" id="request-mail" placeholder="Телефон" required>
+                                 <input type="hidden" name="_subject" value="Заявка с сайта">
+                                 <input type="hidden" name="_next" value="//liza-personal.000webhostapp.com/thanks.html">
+                                 <input type="text" name="_gotcha" style="display:none">
+                            </p>
+                        </div>
+                        <p>
+                            <label for="request-text">Ваша заявка:</label>
+                            <textarea class="request-form-input request-form-text"
+                            name="textarea" id="request-text" placeholder="Текст заявки"></textarea>
+                        </p>
+                        <button class="button-contacts" type="submit">Отправить</button>
+                        
+                    </form>
+                </div>    
             </section>
             <section class="main-owner">
                 <h2 class="visually-hidden">Информация об агентстве Лиза</h2>
@@ -193,106 +254,131 @@
             </section>
             <section class="contacts" id="contacts">
                 <h2 class="visually-hidden">Как нас найти</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2246.5650644266793!2d37.58959731522156!3d55.73131040111778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ba0cdb91487%3A0xc6ea6d324b557dff!2z0JrQvtC80YHQvtC80L7Qu9GM0YHQutC40Lkg0L_RgC4sIDcsINCc0L7RgdC60LLQsCwgMTE5MTQ2!5e0!3m2!1sru!2sru!4v1545490098452" width="1350" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <div class="container">
+                
                     <div class="contacts-info">
-                        <b>Наш адрес:</b>
+                        <b class="contacts-title">Наш адрес:</b>
                         <p>119146 г. Москва, Комсомольский пр-кт, 7/3, стр.2</p>
                         <p>+7 (495) 772-45-81</p>
                         <p>+7 (499) 246-18-56</p>
                         <span>a_liza@list.ru</span>
                     </div>
-                </div>    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2246.5650644266793!2d37.58959731522156!3d55.73131040111778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ba0cdb91487%3A0xc6ea6d324b557dff!2z0JrQvtC80YHQvtC80L7Qu9GM0YHQutC40Lkg0L_RgC4sIDcsINCc0L7RgdC60LLQsCwgMTE5MTQ2!5e0!3m2!1sru!2sru!4v1545490098452" width="1350" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                
             </section>
 
         </main> 
         <footer class="main-footer">
-            
+            <div class="container">
                 <div class="footer-logo">
                     <a class="footer-logo-link" href="#">
-                       <img src="IMG/main-logo-2.svg" width="300" height="150" alt="Логотип Лиза">
+                       <img src="IMG/main-logo-2.svg" width="150" height="75" alt="Логотип Лиза">
                     </a>
                 </div>
-            <div class="footer-social">
-                <a class="social-insta" href="https://www.instagram.com/zhibarovskaya/">
+                <div class="footer-social">
+                  <a class="social-insta" href="https://www.instagram.com/zhibarovskaya/">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	                width="31px" height="31px" viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve">
+	                width="21px" height="21px" viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve">
                    <path fill="#ffffff" d="M18,0H3C1.35,0,0,1.35,0,3v15c0,1.65,1.35,3,3,3h15c1.65,0,3-1.35,3-3V3C21,1.35,19.65,0,18,0z M10.5,7
 	                c1.93,0,3.5,1.57,3.5,3.5S12.43,14,10.5,14S7,12.43,7,10.5S8.57,7,10.5,7z M18,18H3V9h1.181C4.067,9.482,4,9.983,4,10.5
 	                c0,3.59,2.91,6.5,6.5,6.5s6.5-2.91,6.5-6.5c0-0.517-0.066-1.018-0.181-1.5H18V18z M18,7h-4V3h4V7z"/>
                    </svg>
-                   <!--<img src="IMG/insta-icon.svg" width="30" height="30">-->
-                </a>
+                   
+                  </a>
+                </div>
             </div>
-            <div class="footer-contacts"></div>
             
             
         </footer> 
-        <!--<a class="request-link more" href="">Заявка</a>-->
-
-        <section class="modal modal-contacts" id="modal">
-            <?php
-//проверяем, существуют ли переменные в массиве POST
- if(!isset($_POST['name']) and !isset($_POST['mail']) and !isset($_POST['text'])){
- ?>
-                <!--<form class="contact-form" action="index.php" id="myform" method="post">
-                    <h2>Напишите нам</h2>
+        <!-- <a class="request-link more" href="">Заявка</a> -->
+        <div class="tel"><a href="tel:+74957724581"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve" width="30px" height="30px">
+            <g>
+                <g>
+                    <path d="M498.827,377.633l-63.649-63.649c-17.548-17.547-46.102-17.547-63.649,0l-28.931,28.931    c-13.294,13.294-34.926,13.29-48.215,0.005l-125.4-125.507c-13.325-13.325-13.327-34.892,0-48.219    c4.66-4.66,18.041-18.041,28.931-28.931c17.471-17.47,17.715-45.935-0.017-63.665l-63.632-63.432    C116.717-4.381,88.164-4.381,70.663,13.12C57.567,26.102,53.343,30.29,47.471,36.111c-63.28,63.279-63.28,166.242-0.003,229.519    l198.692,198.796c63.428,63.429,166.088,63.434,229.521,0l23.146-23.145C516.375,423.733,516.375,395.181,498.827,377.633z     M91.833,34.382c5.849-5.849,15.365-5.85,21.233,0.016l63.632,63.432c5.863,5.863,5.863,15.352,0,21.216l-10.609,10.608    l-84.81-84.81L91.833,34.382z M267.38,443.213L68.687,244.415c-48.958-48.958-51.649-125.833-8.276-178.006l84.564,84.564    c-22.22,25.189-21.294,63.572,2.787,87.653l125.396,125.501c0.001,0.001,0.003,0.003,0.004,0.004    c24.055,24.056,62.436,25.042,87.656,2.792l84.566,84.566C393.377,494.787,316.675,492.508,267.38,443.213z M477.612,420.065    l-10.609,10.609l-84.865-84.866l10.607-10.608c5.85-5.849,15.367-5.85,21.217,0l63.649,63.649    C483.461,404.699,483.461,414.217,477.612,420.065z" fill="#FFFFFF"/>
+                </g>
+            </g>
+            </svg>
+            </a></div>
+        <section class="modal modal-contacts">
+            
+                <form class="contact-form form" action="https://formspree.io/nowwhat@mail.ru" id="myform" method="POST">
+                    <!-- <h2>Напишите нам</h2> -->
                     <div class="contact-form-block">
                         <p>
                             <label for="contact-name">Ваше имя:</label>
                             <input type="text" class="contact-form-input contact-form-name"
-                             name="name" id="contact-name" placeholder="Имя Фамилия" required>
+                             name="name" id="contact-name" placeholder="Ваше имя" required>
                       
                         </p>
                         <p>
-                            <label for="contact-mail">Ваш email:</label>
-                            <input type="text" class="contact-form-input contact-form-mail"
-                             name="mail" id="contact-mail" placeholder="email@example.com" required>
+                            <label for="contact-mail">Ваш телефон:</label>
+                            <input type="tel" class="contact-form-input contact-form-mail"
+                             name="tel" id="contact-tel" placeholder="Ваш номер телефона" required>
                         </p>
                     </div>
                     <p>
                         <label for="contact-text">Текст письма:</label>
                         <textarea class="contact-form-input contact-form-text"
-                        name="text" id="contact-text" placeholder="В свободной форме"></textarea>
+                        name="textarea" id="contact-text" placeholder="Текст заявки"></textarea>
+                        <input type="hidden" name="_subject" value="Заявка с сайта">
+                        <input type="hidden" name="_next" value="//liza-personal.000webhostapp.com/thanks.html">
+                        <input type="text" name="_gotcha" style="display:none">
                     </p>
-                    <button class="button-contacts" type="submit">Отправить</button>
+                    <button class="button-contacts" type="submit">Отправить заявку</button>
                     <div class="button-close"><img src="IMG/close-cross.svg" width="22" height="22" alt="Закрыть">
                 </div>
-                </form>-->
+                </form>
+
                 
-                <?php
-} else {
-$name = $_POST['name'];
-$mail = $_POST['mail'];
-$text = $_POST['text'];
-$name = htmlspecialchars($name);
-$mail = htmlspecialchars($mail);
-$text = htmlspecialchars($text);
-$name = urldecode($name);
-$mail = urldecode($mail);
-$text = urldecode($text);
-$name = trim($name);
-$mail = trim($mail);
-$text = trim($text);
-//echo $name;
-//echo "<br>";
-//echo $mail;
-//echo "<br>";
-//echo $text;
-// if (mail_utf8("kid230671@gmail.com", "Lizapersonal", "ФИО:".$name.". E-mail: ".$mail . "Текст:".$text, "From: info@lizapersonal.ru  \r\n"))
-// {     echo "Спасибо, мы с вами немедленно свяжемся!"; 
-// } else { 
-    // echo "при отправке сообщения возникли ошибки";
-// }
-ini_set('display_errors','On');
-error_reporting('E_ALL');
-}
-?>
+                
+                
+            </section>
+            <section class="modal-call modal">
+                <form class="call-form form" action="https://formspree.io/nowwhat@mail.ru" id="myformcall" method="POST">
+                    <div class="call-form-block">
+                        <p>
+                            
+                            <input type="text" class="call-form-input call-form-name"
+                             name="name" id="call-name" placeholder="Ваше имя" required>
+                      
+                        </p>
+                        <p>
+                                                        
+                            <input type="tel" class="call-form-input call-form-mail"
+                             name="tel" id="call-tel" placeholder="Ваш номер телефона" required>
+                        </p>
+                    </div>
+                    <p>
+                        
+                        <textarea class="call-form-input call-form-text"
+                        name="textarea" id="call-text" placeholder="Ваш комментарий (необязательно)"></textarea>
+                        <input type="hidden" name="_subject" value="Заявка на звонок с сайта">
+                        <input type="text" name="_gotcha" style="display:none">
+                        <input type="hidden" name="_next" value="//liza-personal.000webhostapp.com/thanks.html">
+                    </p>
+                    <button class="button-contacts" type="submit">Позвоните мне</button>
+                    <div class="button-close"><img src="IMG/close-cross.svg" width="22" height="22" alt="Закрыть">
+                </div>
+                </form>
             </section>
             <div class="modal modal-overlay"></div>
+
+            <script>
+                    var navMain = document.querySelector('.main-navigation');
+                    var navToggle = document.querySelector('.main-nav__toggle');
         
+                    navMain.classList.remove('main-nav-nojs');
+                    navToggle.addEventListener('click', function() {
+                    if (navMain.classList.contains('main-nav-closed')) {
+                    navMain.classList.remove('main-nav-closed');
+                    navMain.classList.add('main-nav-opened');
+                   } else {
+                    navMain.classList.add('main-nav-closed');
+                    navMain.classList.remove('main-nav-opened');
+                   }
+                   });
+            </script>
         
-            <!--<script>
+            <script>
                     var writeButton= document.querySelectorAll(".more");
                     var popup=document.querySelector(".modal-contacts");
                     var close=popup.querySelector(".button-close");
@@ -310,6 +396,25 @@ error_reporting('E_ALL');
                     close.addEventListener("click", function(evt) {evt.preventDefault();
                     popup.classList.remove("modal-show"); overlay.classList.remove("modal-show");})
             
-                </script>-->
+            </script>
+            <script>
+                var callButton= document.querySelectorAll(".tel");
+                var popup2=document.querySelector(".modal-call");
+                var close=popup2.querySelector(".button-close");
+                var overlay=document.querySelector(".modal-overlay");
+                var nameFocus=popup2.querySelector("[name=name]");
+
+                [].forEach.call(callButton, function(more) {more.addEventListener("click",function(evt) {evt.preventDefault();
+                 popup2.classList.add("modal-show"); overlay.classList.add("modal-show");
+                nameFocus.focus()});});
+
+
+                //writeButton.addEventListener("click", function(evt) {evt.preventDefault();
+                //console.log("модалка открыта"); popup.classList.add("modal-show"); overlay.classList.add("modal-show");
+                //nameFocus.focus();});
+                close.addEventListener("click", function(evt) {evt.preventDefault();
+                popup2.classList.remove("modal-show"); overlay.classList.remove("modal-show");})
+        
+            </script>
     </body>
 </html>
